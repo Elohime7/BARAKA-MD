@@ -10,7 +10,7 @@
       "SESSION_ID": {
       "description": "Paste here session id that you have scanned",
       "required": true,
-      "value": ""
+      "value": "Bmwmd$8L6DmziZ"
     },
     "MODE": {
       "description": "Enter true for public. false for private",
@@ -29,17 +29,17 @@
     },
     "AUTO_TYPING": {
       "description": "make it true if you want bot to show typing",
-      "required": false,
+      "required": true,
       "value": ""
     },
     "AUTO_RECORDING": {
       "description": "make it true if you want bot to show recording audio",
-      "required": false,
+      "required": true,
       "value": ""
     },
     "ALWAYS_ONLINE": {
       "description": "make it true if you want bot to show always online",
-      "required": false,
+      "required": true,
       "value": ""
     },
     "AUTO_BLOCK": {
@@ -49,13 +49,13 @@
     },
     "REJECT_CALL": {
       "description": "make it true if you want to reject call",
-      "required": false,
+      "required": true,
       "value": ""
     },
     "PREFIX": {
       "description": "Enter your bot prefix eg .,+@#$¶∆×π",
-      "required": false,
-      "value": ""
+      "required": true,
+      "value": "-"
     }
     },
     "buildpacks": [
